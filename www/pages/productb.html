@@ -8,13 +8,17 @@
             <span class="ios-only">Back</span>
           </a>
         </div>
-        <div class="title">{{productb.title}}</div>
+        <div class="title">{{productb.title}} {{productb.fname}}</div>
       </div>
     </div>
+
     <div class="page-content">
-      <div class="block-title">About {{productb.title}}</div>
+      <div class="block-title">{{productb.phone}}</div>
       <div class="block block-strong">
-        {{productb.description}}
+         <p>{{productb.description}}</p>
+         <p>{{productb.add_street}}</p>
+         <p>{{productb.add_unit}}, {{productb.add_area}}</p>
+         <p>{{productb.add_city}},  {{productb.zip}}</p>
       </div>
     </div>
   </div>
