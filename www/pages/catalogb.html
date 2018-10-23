@@ -1,0 +1,27 @@
+<template>
+  <div class="page" data-name="catalogb">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="title">Customers</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="list links-list">
+        <ul>
+          {{#each productbs}}
+            <li><a href="/productb/{{id}}/">{{title}} {{fname}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  return {
+    data: function () {
+      return {
+        productbs: this.$root.productbs,
+      };
+    }
+  };
+</script>

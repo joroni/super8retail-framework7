@@ -14,37 +14,59 @@ var app = new Framework7({
         firstName: 'John',
         lastName: 'Doe',
       },
-      customers: [
-        {
+      productbs: [{
           id: '1',
-          title: '1234567890',
-          fname: 'John',
-          lname: 'Doe',
-          phone: '09974345645',
-          email: 'john.doe@email.com',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
+          title: 'John',
+          fname: 'Dough',
+          phone: '0995475142',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.',
+          birth_month: '11',
+          birth_day: '12',
+          birth_yr: '1982',
+          add_street: 'Taylo Street',
+          add_unit: 'Unit 1 Dough Apartments',
+          add_city: 'Quezon City',
+          add_area: 'Brgy. Gumamela',
+          add_zip:'1068',
+          add_landmark: 'Near EastWest',
+          timestamp: '150495687901'
         },
         {
           id: '2',
-          title: '1234567111',
-          fname: 'Anne',
-          lname: 'Cruz',
-          phone: '09974345645',
-          email: 'anne.cruz@email.com',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
+          title: 'Anne',
+          fname: 'Hattaway',
+          phone: '0995475142',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.',
+          birth_month: '12',
+          birth_day: '20',
+          birth_yr: '1978',
+          add_street: 'Melon Street',
+          add_unit: 'The Heights Subd',
+          add_city: 'Quezon City',
+          add_area: 'Brgy. 6',
+          add_zip:'1223',
+          add_landmark: 'Near EastWest',
+          timestamp: '150495687978'
         },
         {
           id: '3',
-          title: '123451A111',
-          fname: 'Rafael',
-          lname: 'Domingo',
-          phone: '09954345645',
-          email: 'rafa.dg@email.com',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
+          title: 'Rafael',
+          fname: 'Domingo',
+          phone: '0995475143',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.',
+          birth_month: '12',
+          birth_day: '20',
+          birth_yr: '1978',
+          add_street: 'Melon Street',
+          add_unit: 'The Heights Subd',
+          add_city: 'Quezon City',
+          add_area: 'Brgy. 6',
+          add_zip:'1223',
+          add_landmark: 'Near EastWest',
+          timestamp: '150495687975'
         },
       ],
-      products: [
-        {
+      products: [{
           id: '1',
           title: 'Apple iPhone 8',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
@@ -78,15 +100,15 @@ var homeView = app.views.create('#view-home', {
   url: '/'
 });
 
-var catalogView = app.views.create('#view-catalog', {
-  url: '/catalog/'
+var catalogView = app.views.create('#view-catalogb', {
+  url: '/catalogb/'
 });
 var settingsView = app.views.create('#view-settings', {
   url: '/settings/'
 });
 
-var customersView = app.views.create('#view-customers', {
-  url: '/customers/'
+var customersView = app.views.create('#view-catalog', {
+  url: '/catalog/'
 });
 
 
