@@ -11,19 +11,25 @@ routes = [
     path: '/catalog/',
     componentUrl: './pages/catalog.html',
   },
+  
   {
     path: '/product/:id/',
     componentUrl: './pages/product.html',
   },
   {
-    path: '/settings/',
-    url: './pages/settings.html',
-  },
-    {
     path: '/customers/',
     componentUrl: './pages/customers.html',
   },
+  {
+    path: '/customer/:id/',
+    componentUrl: './pages/customer.html',
+  },
  
+  {
+    path: '/settings/',
+    url: './pages/settings.html',
+  },
+    
   // Page Loaders & Router
   {
     path: '/page-loader-template7/:user/:userId/:posts/:postId/',
