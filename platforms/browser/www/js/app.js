@@ -14,32 +14,20 @@ var app = new Framework7({
         firstName: 'John',
         lastName: 'Doe',
       },
-      customers: [
+      productbs: [
         {
           id: '1',
-          title: '1234567890',
-          fname: 'John',
-          lname: 'Doe',
-          phone: '09974345645',
-          email: 'john.doe@email.com',
+          title: 'John',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
         },
         {
           id: '2',
-          title: '1234567111',
-          fname: 'Anne',
-          lname: 'Cruz',
-          phone: '09974345645',
-          email: 'anne.cruz@email.com',
+          title: 'Anne',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
         },
         {
           id: '3',
-          title: '123451A111',
-          fname: 'Rafael',
-          lname: 'Domingo',
-          phone: '09954345645',
-          email: 'rafa.dg@email.com',
+          title: 'Rafael',
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi tempora similique reiciendis, error nesciunt vero, blanditiis pariatur dolor, minima sed sapiente rerum, dolorem corrupti hic modi praesentium unde saepe perspiciatis.'
         },
       ],
@@ -85,8 +73,8 @@ var settingsView = app.views.create('#view-settings', {
   url: '/settings/'
 });
 
-var customersView = app.views.create('#view-customers', {
-  url: '/customers/'
+var customersView = app.views.create('#view-catalogb', {
+  url: '/catalogb/'
 });
 
 

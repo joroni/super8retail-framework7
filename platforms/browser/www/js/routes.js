@@ -17,12 +17,12 @@ routes = [
     componentUrl: './pages/product.html',
   },
   {
-    path: '/customers/',
-    componentUrl: './pages/customers.html',
+    path: '/catalogb/',
+    componentUrl: './pages/catalogb.html',
   },
   {
-    path: '/customer/:id/',
-    componentUrl: './pages/customer.html',
+    path: '/productb/:id/',
+    componentUrl: './pages/productb.html',
   },
  
   {
