@@ -4,8 +4,8 @@ var $$ = Dom7;
 // Framework7 App main instance
 var app = new Framework7({
   root: '#app', // App root element
-  id: 'io.framework7.testapp', // App bundle ID
-  name: 'Framework7', // App name
+  id: 'io.framework7.super8retail', // App bundle ID
+  name: 'Super 8', // App name
   theme: 'auto', // Automatic theme detection
   // App root data
   data: function () {
