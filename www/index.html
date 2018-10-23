@@ -20,10 +20,11 @@
   <meta name="msapplication-tap-highlight" content="no">
   <title>My App</title>
 
-  <link rel="stylesheet" href="framework7/css/framework7.min.css">
-  <link rel="stylesheet" href="css/icons.css">
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./framework7/css/framework7.min.css">
+  <link rel="stylesheet" href="./framework7/css/framework7-icons.css">
+  <link rel="stylesheet" href="./css/icons.css">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <div id="app">
@@ -125,25 +126,25 @@
             <div class="block">
               <div class="row">
                 <div class="col-50">
-                    <div class="card demo-card-header-pic">
+                    <div id="linkCustomers" class="card demo-card-header-pic">
                         <div style="background-image:url(img/products/btn-1.jpg); height:150px; background-size:cover;" class="card-header align-items-flex-end"></div>
-                        <div class="card-footer justify-content-center"><a href="#" class="link">Customers</a></div>
+                        <div class="card-footer justify-content-center"><a href="/catalogb/" class="link">Customers</a></div>
                     </div>
                 </div>
                 <div class="col-50">
-                    <div class="card demo-card-header-pic">
+                    <div id="linkStore" class="card demo-card-header-pic">
                         <div style="background-image:url(img/products/btn-2.jpg); height:150px; background-size:cover;" class="card-header align-items-flex-end"></div>
-                        <div class="card-footer justify-content-center"><a href="#" class="link">Store</a></div>
+                        <div class="card-footer justify-content-center"><a href="/catalog/" class="link">Store</a></div>
                     </div>
                 </div>
                 <div class="col-50">
-                    <div class="card demo-card-header-pic">
+                    <div id="linkOrders" class="card demo-card-header-pic">
                         <div style="background-image:url(img/products/btn-3.jpg); height:150px; background-size:cover;" class="card-header align-items-flex-end"></div>
                         <div class="card-footer justify-content-center"><a href="#" class="link">Orders</a></div>
                     </div>
                 </div>
                 <div class="col-50">
-                    <div class="card demo-card-header-pic">
+                    <div  id="linkOrdernow" class="card demo-card-header-pic">
                         <div style="background-image:url(img/products/btn-1.jpg); height:150px; background-size:cover;" class="card-header align-items-flex-end"></div>
                         <div class="card-footer justify-content-center"><a href="#" class="link">ORDER NOW</a></div>
                     </div>
@@ -237,15 +238,28 @@
   <!--
   <script src="cordova.js"></script>
   -->
+   <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+   
+
+
+    <script src='./js/lodash.min.js'></script>
+    <script src='./js/spin.min.js'></script>
+    <script src='./js/ladda.min.js'></script>
 
   <!-- Framework7 library -->
-  <script src="framework7/js/framework7.min.js"></script>
+  <script src="./framework7/js/framework7.min.js"></script>
 
   <!-- App routes -->
-  <script src="js/routes.js"></script>
+  <script src="./js/routes.js"></script>
 
   <!-- Your custom app scripts -->
-  <script src="js/app.js"></script>
+  <script src="./js/app.js"></script>
+
+  
+  <!-- Your custom app scripts 
+  <script src="js/my-app.js"></script>-->
   
   
 </body>
