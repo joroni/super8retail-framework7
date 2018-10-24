@@ -30,6 +30,10 @@ routes = [
     url: './pages/settings.html',
   },
     
+  {
+    path: '/form/',
+    url: './pages/form.html',
+  },
   // Page Loaders & Router
   {
     path: '/page-loader-template7/:user/:userId/:posts/:postId/',
